@@ -1,0 +1,180 @@
+/* Reset y configuración general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+  /* Estilos Generales */
+
+img {
+    width: 100px; /* O el valor que mejor se ajuste */
+    height: auto; /* Mantiene la proporción del logo */
+    object-fit: cover;
+    border-radius: 8px;
+}
+body {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #6a0000;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+  /* Jumbotron */
+.jumbotron {
+    background-color: #87130c;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.jumbotron h1 {
+    font-size: 2.5rem;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="email"] {
+    padding: 10px;
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #00004d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a35a5a;
+}
+
+  /* Catálogo */
+#catalogo, #blog, #contacto {
+    padding: 40px 20px;
+    color: #0202ec;
+}
+
+h2 {
+    color: #000000;
+}
+
+.productos {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.producto {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    flex: 1 1 calc(33.333% - 20px);
+}
+
+.producto img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+  /* Blog */
+article {
+    margin-bottom: 20px;
+    color: #000101;
+}
+
+  /* Contacto */
+address a {
+    color: #000101;
+    text-decoration: none;
+}
+
+address a:hover {
+    text-decoration: underline;
+}
+
+  /* Footer */
+footer {
+    background-color: #680606;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.redes a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.redes a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.facebook {
+    background-color: #1877f2;
+}
+
+.youtube {
+    background-color: #ff0000;
+}
+
+.x {
+    background-color: #000;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+}
